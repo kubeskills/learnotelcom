@@ -21,6 +21,7 @@ A simple static site that points visitors to resources for learning [OpenTelemet
 | `index.html` | The homepage (self-contained HTML and CSS, no build step) |
 | `opentelemetry-horizontal-color.png` | OpenTelemetry logo used on the homepage |
 | `kubeskills-horizontal-logo.png` | KubeSkills logo used in the footer, linking to kubeskills.com |
+| `_redirects` | Netlify redirect rules (e.g. `/demo-arch` to the OpenTelemetry demo architecture docs) |
 
 ## Local preview
 
