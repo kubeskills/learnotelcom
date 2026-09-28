@@ -1,8 +1,8 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fb40bc90-dc4d-4af3-8fea-4a917fafa981/deploy-status)](https://app.netlify.com/projects/learnotel/deploys)
-
 # learnotelcom
 
-https://learnOTel.com | Learn OpenTelemetry
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fb40bc90-dc4d-4af3-8fea-4a917fafa981/deploy-status)](https://app.netlify.com/projects/learnotel/deploys)
+
+[learnOTel.com](https://learnOTel.com) | Learn OpenTelemetry
 
 A simple static site that points visitors to resources for learning [OpenTelemetry](https://opentelemetry.io/).
 
@@ -17,7 +17,7 @@ A simple static site that points visitors to resources for learning [OpenTelemet
 ## Structure
 
 | File | Purpose |
-|---|---|
+| --- | --- |
 | `index.html` | The homepage (self-contained HTML and CSS, no build step) |
 | `opentelemetry-horizontal-color.png` | OpenTelemetry logo used on the homepage |
 
