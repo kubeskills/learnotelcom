@@ -20,6 +20,7 @@ A simple static site that points visitors to resources for learning [OpenTelemet
 | --- | --- |
 | `index.html` | The homepage (self-contained HTML and CSS, no build step) |
 | `opentelemetry-horizontal-color.png` | OpenTelemetry logo used on the homepage |
+| `kubeskills-horizontal-logo.png` | KubeSkills logo used in the footer, linking to kubeskills.com |
 
 ## Local preview
 
