@@ -22,6 +22,9 @@ A simple static site that points visitors to resources for learning [OpenTelemet
 | `opentelemetry-horizontal-color.png` | OpenTelemetry logo used on the homepage |
 | `kubeskills-horizontal-logo.png` | KubeSkills logo used in the footer, linking to kubeskills.com |
 | `_redirects` | Netlify redirect rules (e.g. `/demo-arch` to the OpenTelemetry demo architecture docs) |
+| `CLAUDE.md` | Guidance for Claude Code when working in this repo |
+| `.claude/settings.json` | Claude Code project settings (deny rules for `.env*` and `.netlify/`) |
+| `.gitignore` | Files git should ignore (OS/editor files, `.netlify/`, `.env*`) |
 
 ## Local preview
 
