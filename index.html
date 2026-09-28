@@ -108,13 +108,20 @@
 
       footer {
         display: flex;
+        align-items: center;
         justify-content: center;
+        gap: 0.75rem;
         padding: 1.5rem 1rem 2rem;
+      }
+
+      .made-by {
+        font-size: 0.95rem;
+        color: var(--muted);
       }
 
       .footer-logo {
         display: block;
-        width: min(80vw, 240px);
+        width: min(60vw, 200px);
         height: auto;
       }
     </style>
@@ -160,6 +167,7 @@
       </ul>
     </main>
     <footer>
+      <span class="made-by">Made by</span>
       <a href="https://kubeskills.com">
         <img
           class="footer-logo"
