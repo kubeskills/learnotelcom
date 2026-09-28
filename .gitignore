@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+
+# Netlify local state (netlify dev / netlify link)
+.netlify/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Environment files
+.env
+.env.*
