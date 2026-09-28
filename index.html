@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Learn OpenTelemetry</title>
+    <meta name="description" content="Resources for learning OpenTelemetry." />
+    <style>
+      :root {
+        --otel-blue: #4f62ad;
+        --otel-orange: #f5a800;
+        --bg: #ffffff;
+        --text: #1f2544;
+        --muted: #5b6285;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg);
+        color: var(--text);
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.6;
+        border-top: 6px solid var(--otel-orange);
+      }
+
+      main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        padding: 3rem 1rem;
+        text-align: center;
+      }
+
+      .logo {
+        width: min(90%, 520px);
+        height: auto;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
+        color: var(--otel-blue);
+      }
+
+      h1::after {
+        content: "";
+        display: block;
+        width: 4rem;
+        height: 4px;
+        margin: 0.75rem auto 0;
+        border-radius: 2px;
+        background: var(--otel-orange);
+      }
+
+      p {
+        max-width: 36rem;
+        margin: 0;
+        font-size: clamp(1.05rem, 2.5vw, 1.25rem);
+        color: var(--muted);
+      }
+
+      .links {
+        list-style: none;
+        margin: 0.5rem 0 0;
+        padding: 0;
+        width: min(100%, 36rem);
+        display: grid;
+        gap: 0.75rem;
+      }
+
+      .links li {
+        display: flex;
+        flex-direction: column;
+        gap: 0.15rem;
+        padding: 0.9rem 1.1rem;
+        border: 1px solid #e3e6f2;
+        border-left: 4px solid var(--otel-orange);
+        border-radius: 6px;
+        text-align: left;
+      }
+
+      .links a {
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: var(--otel-blue);
+        text-decoration: none;
+      }
+
+      .links a:hover,
+      .links a:focus-visible {
+        text-decoration: underline;
+      }
+
+      .links span {
+        font-size: 0.95rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img
+        class="logo"
+        src="opentelemetry-horizontal-color.png"
+        alt="OpenTelemetry logo"
+        width="1972"
+        height="692"
+      />
+      <h1>Learn OpenTelemetry</h1>
+      <p>This site contains resources for learning OpenTelemetry.</p>
+      <ul class="links">
+        <li>
+          <a href="https://github.com/open-telemetry/opentelemetry-demo"
+            >OpenTelemetry Astronomy Shop Demo</a
+          >
+          <span>A microservices sample app instrumented end to end.</span>
+        </li>
+        <li>
+          <a href="https://opentelemetry.io/training/">Training</a>
+          <span>Free Linux Foundation OpenTelemetry Training Course.</span>
+        </li>
+        <li>
+          <a href="https://github.com/magsther/awesome-opentelemetry"
+            >Awesome OpenTelemetry GitHub Repo</a
+          >
+          <span>A community-curated list of OpenTelemetry resources on GitHub.</span>
+        </li>
+        <li>
+          <a href="https://github.com/open-telemetry/opentelemetry-collector"
+            >OpenTelemetry Collector GitHub Repo</a
+          >
+          <span>The vendor-agnostic pipeline for receiving and exporting telemetry on GitHub.</span>
+        </li>
+        <li>
+          <a href="https://opentelemetry.io/docs/">OpenTelemetry Documentation</a>
+          <span>The official OpenTelemetry docs.</span>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
