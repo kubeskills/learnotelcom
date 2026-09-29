@@ -25,5 +25,6 @@ Netlify `_redirects` rules are **not** applied by `http.server`; verify them on 
 ## Conventions
 
 - Commit style is conventional commits with scope, e.g. `feat(site): ...`, `docs(readme): ...`.
+- Commit directly to `main` in this repo; do not create `feature/` branches or PRs unless asked. This overrides the global `feature/<change-name>` branch convention. Never force-push.
 - `index.html` is formatted prettier-style (2-space indent, `<a>` text wrapped as `>Text</a\n>` when long); keep new markup consistent with that.
 - The site is not affiliated with the OpenTelemetry project; keep the trademark disclaimer in `README.md` if editing branding.
