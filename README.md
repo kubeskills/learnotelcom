@@ -13,6 +13,7 @@ A simple static site that points visitors to resources for learning [OpenTelemet
 - [Awesome OpenTelemetry](https://github.com/magsther/awesome-opentelemetry)
 - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)
 - [OpenTelemetry Documentation](https://opentelemetry.io/docs/)
+- [Mastering OpenTelemetry and Observability](https://www.wiley.com/en-us/shop/general-introductory-computer-science/mastering-opentelemetry-and-observability-enhancing-application-and-infrastructure-performance-and-avoiding-outages-p-9781394253135)
 
 ## Structure
 
